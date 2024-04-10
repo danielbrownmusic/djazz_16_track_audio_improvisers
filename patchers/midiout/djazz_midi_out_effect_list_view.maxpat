@@ -57,20 +57,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 10.0, 73.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 72.0, 20.0 ],
-					"text" : "midi effects",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -105,7 +91,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.5, 217.0, 22.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.0, 4.0, 22.0, 22.0 ],
+					"presentation_rect" : [ 26.0, 0.0, 22.0, 22.0 ],
 					"text" : "-",
 					"texton" : "-"
 				}
@@ -123,7 +109,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 57.5, 217.0, 22.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 4.0, 22.0, 22.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 22.0, 22.0 ],
 					"text" : "+",
 					"texton" : "+"
 				}
@@ -185,7 +171,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 348.0, 10.0, 128.0, 384.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 128.0, 384.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 90.0, 384.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"varname" : "effects_panel"
@@ -238,15 +224,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "db_dictionary_array_utils.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/code/tools",
+				"patcherrelativepath" : "../../code/tools",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_components_midi_out_effect_list_view.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/code/midiout",
+				"patcherrelativepath" : "../../code/midiout",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

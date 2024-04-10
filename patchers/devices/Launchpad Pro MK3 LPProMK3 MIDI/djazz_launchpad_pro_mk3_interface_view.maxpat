@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -812,7 +812,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 327.0, 207.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.0, 80.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 110.0, 89.0, 20.0 ],
 					"text" : "Edit Mapping",
 					"texton" : "Edit Mapping"
 				}
@@ -828,7 +828,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 808.0, 207.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.0, 28.0, 100.0, 22.0 ],
+					"presentation_rect" : [ 0.0, 58.0, 89.0, 22.0 ],
 					"text" : "Save Mapping",
 					"texton" : "Save Mapping"
 				}
@@ -844,7 +844,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 573.0, 207.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.0, 55.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 85.0, 89.0, 20.0 ],
 					"text" : "Clear Mapping",
 					"texton" : "Clear Mapping"
 				}
@@ -854,7 +854,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -885,7 +885,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 26.0, 17.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 3.0, 98.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 87.0, 20.0 ],
 					"text" : "connect",
 					"texton" : "disconnect"
 				}
@@ -901,7 +901,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 985.0, 207.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.0, 3.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 33.0, 89.0, 20.0 ],
 					"text" : "Load Mapping",
 					"texton" : "Load Mapping"
 				}
@@ -1182,7 +1182,37 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "djazz_ask_to_save_gate.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/devices",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_device_io.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/devices",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_launchpad_mini_make_mapping.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/devices",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_parameter_info_provider.js",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/code/parameters",
+				"patcherrelativepath" : "../../../code/parameters",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
