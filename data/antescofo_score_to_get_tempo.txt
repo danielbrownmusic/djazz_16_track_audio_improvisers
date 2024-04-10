@@ -4,6 +4,6 @@ $last := $NOW
 whenever ($pos_to_play)
 {
 	tempo_from_antescofo_in_seconds ($pos_to_play.tempo)
-    print interval ($NOW - $last)
-    $last := $NOW
+    ; print interval ($NOW - $last)
+    ; $last := $NOW
 } 

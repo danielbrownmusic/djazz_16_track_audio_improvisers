@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 234.0, 735.0, 207.0, 221.0 ],
+		"rect" : [ 1736.0, 145.0, 276.0, 283.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 157.0, 189.618159294128418, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 462.404820207191278, 229.1185262799263, 28.0, 28.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 39.0, 68.333800999999994, 115.0, 22.0 ],
+					"patching_rect" : [ 61.0, 37.333800999999994, 115.0, 22.0 ],
 					"text" : "djazz_oracle_view",
 					"varname" : "patcher"
 				}
@@ -58,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ 39.0, 129.5, 115.0, 22.0 ],
+					"patching_rect" : [ 61.0, 86.5, 115.0, 22.0 ],
 					"text" : "djazz_oracle_model",
 					"varname" : "patcher[1]"
 				}
@@ -68,7 +80,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 144.5, 174.5, 175.5, 174.5, 175.5, 57.333800999999994, 144.5, 57.333800999999994 ],
+					"midpoints" : [ 166.5, 128.5, 204.5, 128.5, 204.5, 26.333800999999994, 166.5, 26.333800999999994 ],
+					"order" : 1,
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -76,8 +89,24 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 48.5, 175.5, 17.5, 175.5, 17.5, 57.333800999999994, 48.5, 57.333800999999994 ],
+					"midpoints" : [ 70.5, 129.5, 39.5, 129.5, 39.5, 26.333800999999994, 70.5, 26.333800999999994 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 1 ],
+					"order" : 0,
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"order" : 2,
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
@@ -96,6 +125,19 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "antescofo~.mxo",
 				"type" : "iLaX"
