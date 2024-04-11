@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 153.0, 254.0, 1886.0, 963.0 ],
+		"rect" : [ 41.0, 100.0, 1441.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.267930507659912, 206.41663289359667, 75.666666746139526, 22.0 ],
+					"patching_rect" : [ 415.601264595985413, 200.779309374150444, 75.666666746139526, 22.0 ],
 					"text" : "song_file $1"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1366.123804569244385, 206.208302277965458, 104.666667938232422, 22.0 ],
+					"patching_rect" : [ 1464.47252345085144, 200.570978758519232, 104.666667938232422, 22.0 ],
 					"text" : "key_msg 110 last"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 486.094017744064331, 206.41663289359667, 108.000001430511475, 22.0 ],
+					"patching_rect" : [ 511.427351832389832, 200.779309374150444, 108.000001430511475, 22.0 ],
 					"text" : "key_msg 32 bang"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 864.283346176147461, 206.41663289359667, 100.666667938232422, 22.0 ],
+					"patching_rect" : [ 926.632063984870911, 200.779309374150444, 100.666667938232422, 22.0 ],
 					"text" : "key_msg 78 last"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1337.283381581306458, 322.193827468795689, 123.0, 22.0 ],
+					"patching_rect" : [ 1435.632100462913513, 316.556503949349462, 123.0, 22.0 ],
 					"text" : "params::score_file $1"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 841.950014114379883, 322.193827468795689, 123.0, 22.0 ],
+					"patching_rect" : [ 904.298731923103333, 316.556503949349462, 123.0, 22.0 ],
 					"text" : "params::score_file $1"
 				}
 
@@ -127,7 +127,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1337.283381581306458, 260.193828184051426, 283.24999988079071, 25.833333373069763 ],
+					"patching_rect" : [ 1435.632100462913513, 254.5565046646052, 283.24999988079071, 25.833333373069763 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.696194511443991, 66.666666984558105, 282.75, 22.5 ],
 					"varname" : "score_file_2",
@@ -152,7 +152,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 841.950014114379883, 262.193828184051426, 283.083333134651184, 24.5 ],
+					"patching_rect" : [ 904.298731923103333, 256.5565046646052, 283.083333134651184, 24.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.696194511443991, 37.333331823348999, 282.75, 23.0 ],
 					"varname" : "score_file_1",
@@ -168,7 +168,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.564981818199158, 672.933442666314022, 30.0, 30.0 ]
+					"patching_rect" : [ 299.564983725547791, 893.605094847167948, 30.0, 30.0 ]
 				}
 
 			}
@@ -181,7 +181,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.564981818199158, 60.163383755398854, 100.0, 20.0 ],
+					"patching_rect" : [ 290.231650114059448, 60.163383755398854, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1167.696234208137412, 251.333333492279053, 100.0, 20.0 ],
 					"text" : "debug view",
@@ -196,7 +196,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.564981818199158, 115.380774769497975, 77.0, 22.0 ],
+					"patching_rect" : [ 290.231650114059448, 115.380774769497975, 77.0, 22.0 ],
 					"text" : "clientwindow"
 				}
 
@@ -212,7 +212,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 699.673834085464478, 46.351429397037464, 141.0, 91.029345372460497 ],
+					"patching_rect" : [ 21.333277344703674, 140.655420377878954, 103.666665554046631, 66.927012073267136 ],
 					"pic" : "Audio_DB_bkp_mkm_2To:/NEW_2021_07_BKP/DJAAZ_Project/Djazz_MAIN/Djazz_palettes_couleur/djazz_logos/jpg/_Djazz-logo-fondnoir.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 5.696194511443991, 204.660032806723223, 96.045239574486459, 62.006633224160566 ]
@@ -227,7 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.231775283813477, 88.380774769497975, 76.833298325538635, 49.0 ],
+					"patching_rect" : [ 185.231776595115662, 87.018095427921253, 76.833298325538635, 49.0 ],
 					"text" : "loadmess outputmode 3"
 				}
 
@@ -248,7 +248,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1034.586833119392395, 46.351429397037464, 157.33333420753479, 37.333330631256104 ],
+					"patching_rect" : [ 886.586828708648682, 55.192728531812918, 157.33333420753479, 37.333330631256104 ],
 					"viewvisibility" : 1
 				}
 
@@ -265,7 +265,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -914,7 +914,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1398.463684678077698, 87.018095427921253, 99.0, 22.0 ],
+					"patching_rect" : [ 1115.797009587287903, 55.192728531812918, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -943,7 +943,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.267930507659912, 121.018098288944202, 273.000009655952454, 33.333331823348999 ],
+					"patching_rect" : [ 415.601264595985413, 115.380774769497975, 273.000009655952454, 33.333331823348999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.696194511443991, 4.333333492279053, 264.666677474975586, 30.999998331069946 ],
 					"varname" : "song_folder",
@@ -958,7 +958,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1034.586833119392395, 99.850086405060665, 130.0, 22.0 ],
+					"patching_rect" : [ 886.586828708648682, 108.691385539836119, 130.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "djazz_session_file.js",
 						"parameter_enable" : 0
@@ -974,7 +974,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 842.033286094665527, 572.19382806194676, 59.333330631256104, 20.0 ],
+					"patching_rect" : [ 906.03328800201416, 570.556504661709823, 59.333330631256104, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 720.029533248931784, 214.166666030883789, 63.0, 20.0 ],
 					"text" : "OCTAVE",
@@ -997,7 +997,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 902.449950218200684, 542.52716238869084, 389.333341121673584, 61.333331346511841 ],
+					"patching_rect" : [ 966.449952125549316, 540.889838988453903, 389.333341121673584, 61.333331346511841 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 776.725829624713697, 195.666666030883789, 377.0, 57.0 ],
 					"varname" : "transpose_octave",
@@ -1022,7 +1022,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1337.283381581306458, 380.56883418849543, 425.5, 238.083328931076039 ],
+					"patching_rect" : [ 1435.632100462913513, 374.931510669049203, 425.5, 238.083328931076039 ],
 					"varname" : "midi_player_2",
 					"viewvisibility" : 1
 				}
@@ -1044,7 +1044,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 841.950014114379883, 380.56883418849543, 456.5, 238.083328931076039 ],
+					"patching_rect" : [ 904.298731923103333, 374.931510669049203, 456.5, 238.083328931076039 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.725829624713697, 4.333333492279053, 444.0, 267.0 ],
 					"varname" : "midi_player_1",
@@ -1061,7 +1061,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.065079927444458, 16.018094355037647, 30.0, 30.0 ]
+					"patching_rect" : [ 162.731748223304749, 16.018094355037647, 30.0, 30.0 ]
 				}
 
 			}
@@ -1092,7 +1092,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 390.267930507659912, 642.336954707076984, 1378.864167213439941, 306.17391300201416 ],
+					"patching_rect" : [ 482.267933249473572, 635.366297814560994, 1378.864167213439941, 306.17391300201416 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.696194511443991, 277.333333492279053, 1378.029635113269705, 326.999999046325684 ],
 					"varname" : "midi_out_bank",
@@ -1108,7 +1108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.564981818199158, 576.299362017891781, 89.0, 35.0 ],
+					"patching_rect" : [ 346.564983725547791, 779.995378070398374, 89.0, 35.0 ],
 					"text" : "prepend midi_out_bank"
 				}
 
@@ -1121,7 +1121,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.564981818199158, 672.933442666314022, 30.0, 30.0 ]
+					"patching_rect" : [ 346.564983725547791, 893.605094847167948, 30.0, 30.0 ]
 				}
 
 			}
@@ -1133,7 +1133,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.333277344703674, 662.938421306098917, 30.0, 30.0 ]
+					"patching_rect" : [ 120.333279252052307, 893.605094847167948, 30.0, 30.0 ]
 				}
 
 			}
@@ -1145,7 +1145,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.065079927444458, 662.938421306098917, 30.0, 30.0 ]
+					"patching_rect" : [ 172.065081834793091, 893.605094847167948, 30.0, 30.0 ]
 				}
 
 			}
@@ -1157,7 +1157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.065079927444458, 197.173923668350199, 109.999993681907654, 62.0 ],
+					"patching_rect" : [ 162.731748223304749, 211.443827289981755, 109.999993681907654, 62.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ -3207, -101, -2504, 1075 ],
 						"parameter_enable" : 0,
@@ -1186,7 +1186,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 390.267930507659912, 260.193828184051426, 416.652175903320312, 256.47826099395752 ],
+					"patching_rect" : [ 415.601264595985413, 350.556507525628149, 416.652175903320312, 262.458332074497093 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 291.696194511443991, 4.333333492279053, 416.362882000000013, 271.0 ],
 					"varname" : "master",
@@ -1218,7 +1218,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 150.731775283813477, 168.786247494731924, 117.565079927444458, 168.786247494731924 ],
+					"midpoints" : [ 194.731776595115662, 168.786247494731924, 172.231748223304749, 168.786247494731924 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1233,7 +1233,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 245.064981818199158, 169.161921486876963, 117.565079927444458, 169.161921486876963 ],
+					"midpoints" : [ 299.731650114059448, 169.161921486876963, 172.231748223304749, 169.161921486876963 ],
 					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -1306,7 +1306,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 399.767930507659912, 171.870451073625532, 1346.783381581306458, 171.870451073625532 ],
+					"midpoints" : [ 425.101264595985413, 166.233127554179305, 1445.132100462913513, 166.233127554179305 ],
 					"order" : 2,
 					"source" : [ "obj-40", 0 ]
 				}
@@ -1315,7 +1315,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"midpoints" : [ 399.767930507659912, 171.836935016428015, 851.450014114379883, 171.836935016428015 ],
+					"midpoints" : [ 425.101264595985413, 166.199611496981788, 913.798731923103333, 166.199611496981788 ],
 					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
@@ -1339,7 +1339,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 399.767930507659912, 556.305255242053931, 65.833277344703674, 556.305255242053931 ],
+					"midpoints" : [ 425.101264595985413, 666.971925206844276, 129.833279252052307, 666.971925206844276 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -1450,287 +1450,287 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "db_dictionary_array_utils.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/tools",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/tools",
 				"patcherrelativepath" : "../../code/tools",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.get_song_dict_file_path.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/file_io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/file_io",
 				"patcherrelativepath" : "../../code/file_io",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_PARAMS_CTRL_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/params",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/params",
 				"patcherrelativepath" : "../params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_PARAMS_CTRL_midi_gen_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/params",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/params",
 				"patcherrelativepath" : "../params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_PARAMS_VIEW_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/params",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/params",
 				"patcherrelativepath" : "../params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_PARAMS_VIEW_midi_gen_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/params",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/params",
 				"patcherrelativepath" : "../params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_beat_to_beat_bar_chapter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_components_midi_out_effect_list_view.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/midiout",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/midiout",
 				"patcherrelativepath" : "../../code/midiout",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_get_bar_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_get_chapter_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_get_navigation_file_path.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/file_io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/file_io",
 				"patcherrelativepath" : "../../code/file_io",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_grid_view_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_loop_control_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midiplayer",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midiplayer",
 				"patcherrelativepath" : "../midiplayer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_master_clock_view_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/master",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/master",
 				"patcherrelativepath" : "../master",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/master",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/master",
 				"patcherrelativepath" : "../master",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_master_view_beat_out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/master",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/master",
 				"patcherrelativepath" : "../master",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_metro_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/beatclock",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/beatclock",
 				"patcherrelativepath" : "../beatclock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_midi_gen_view_tempo_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midiplayer",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midiplayer",
 				"patcherrelativepath" : "../midiplayer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_midi_out_bank_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midiout",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midiout",
 				"patcherrelativepath" : "../midiout",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_midi_out_effect_list_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midiout",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midiout",
 				"patcherrelativepath" : "../midiout",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_midi_out_solo_bank_view.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/midiout",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/midiout",
 				"patcherrelativepath" : "../../code/midiout",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_midi_out_track_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midiout",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midiout",
 				"patcherrelativepath" : "../midiout",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_midi_out_track_view_outport.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midiout",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midiout",
 				"patcherrelativepath" : "../midiout",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_midi_player_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midiplayer",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midiplayer",
 				"patcherrelativepath" : "../midiplayer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_navigate_bar_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_navigate_chapter_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_navigate_view_chapter_bar_beat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_number_button.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/gui",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/gui",
 				"patcherrelativepath" : "../tools/gui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_range.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/iterators",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/iterators",
 				"patcherrelativepath" : "../tools/iterators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_score_file_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/song file io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/song file io",
 				"patcherrelativepath" : "../song file io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_select_score_file_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/song file io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/song file io",
 				"patcherrelativepath" : "../song file io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_session_file.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/file_io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/file_io",
 				"patcherrelativepath" : "../../code/file_io",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_speed_button.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/gui",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/gui",
 				"patcherrelativepath" : "../tools/gui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_speed_control_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midiplayer",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midiplayer",
 				"patcherrelativepath" : "../midiplayer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_transpose_octave_controller.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/midi effects/transpose octave",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/midi effects/transpose octave",
 				"patcherrelativepath" : "../midi effects/transpose octave",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_view_load_song_folder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/song file io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/song file io",
 				"patcherrelativepath" : "../song file io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_view_session_file.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/song file io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/song file io",
 				"patcherrelativepath" : "../song file io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_at_subkey.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "eqsym.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools",
 				"patcherrelativepath" : "../tools",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "key_msg.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools",
 				"patcherrelativepath" : "../tools",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattrinit.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/pattr",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/pattr",
 				"patcherrelativepath" : "../../code/pattr",
 				"type" : "TEXT",
 				"implicit" : 1
