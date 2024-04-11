@@ -650,13 +650,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"linecount" : 6,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 72.666666666666515, 118.0, 246.0, 75.0 ],
-					"text" : "NONE",
+					"text" : "Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/djazz_user/scores/AutumnleavesDoMin//AutumnleavesDoMin.jsonnewAutumnleavesDoMin-new-2016.12.02-18h16.txt",
 					"varname" : "textedit"
 				}
 
@@ -664,6 +665,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1300,9 +1302,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-19", 1 ],
-					"watchpoint_flags" : 1,
-					"watchpoint_id" : 20
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
@@ -1317,9 +1317,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-25", 0 ],
-					"watchpoint_flags" : 1,
-					"watchpoint_id" : 21
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}

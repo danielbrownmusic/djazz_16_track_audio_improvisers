@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1416.0, 100.0, 278.0, 594.0 ],
+		"rect" : [ 717.0, 151.0, 862.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,9 +44,21 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 26.666666666666742, 132.0, 65.0, 22.0 ],
-					"text" : "route clear"
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 33.0, 133.0, 66.0, 22.0 ],
+					"text" : "sel NONE"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 33.0, 217.75, 29.5, 22.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -58,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.666666666666742, 503.0, 30.0, 30.0 ]
+					"patching_rect" : [ 33.0, 477.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -71,7 +83,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.666666666666742, 20.0, 30.0, 30.0 ]
+					"patching_rect" : [ 33.0, 36.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -82,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.666666666666742, 404.25, 152.0, 22.0 ],
+					"patching_rect" : [ 80.0, 375.25, 152.0, 22.0 ],
 					"text" : "dict.unpack chapter_count:"
 				}
 
@@ -94,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.666666666666742, 305.5, 126.0, 22.0 ],
+					"patching_rect" : [ 80.0, 292.5, 126.0, 22.0 ],
 					"text" : "dict.unpack metadata:"
 				}
 
@@ -106,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.666666666666742, 206.75, 77.0, 22.0 ],
+					"patching_rect" : [ 80.0, 217.75, 77.0, 22.0 ],
 					"text" : "dictionary $1"
 				}
 
@@ -121,8 +133,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

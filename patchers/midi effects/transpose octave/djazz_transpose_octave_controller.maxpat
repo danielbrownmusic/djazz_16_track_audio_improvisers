@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1582.0, 385.0, 682.0, 676.0 ],
+		"rect" : [ 396.0, 379.0, 682.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 264.0, 80.0, 71.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -502,7 +502,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -592,9 +592,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"midpoints" : [ 139.5, 496.0, 607.0, 496.0, 607.0, 111.5, 326.5, 111.5 ],
 					"order" : 0,
-					"source" : [ "obj-1", 0 ],
-					"watchpoint_flags" : 1,
-					"watchpoint_id" : 8
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -735,45 +733,11 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 139.5, 368.5, 139.5, 368.5 ],
-					"source" : [ "obj-9", 0 ],
-					"watchpoint_flags" : 1,
-					"watchpoint_id" : 16
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-11::obj-7" : [ "octave_up_2", "octave_up_2", 0 ],
-			"obj-12::obj-7" : [ "octave_up_3", "octave_up_3", 0 ],
-			"obj-13::obj-7" : [ "octave_up_4", "octave_up_4", 0 ],
-			"obj-14::obj-7" : [ "octave_down_1", "octave_down_1", 0 ],
-			"obj-15::obj-7" : [ "octave_down_2", "octave_down_2", 0 ],
-			"obj-16::obj-7" : [ "octave_down_3", "octave_down_3", 0 ],
-			"obj-17::obj-7" : [ "octave_down_4", "octave_down_4", 0 ],
-			"obj-24::obj-7" : [ "no_octave", "no_octave", 0 ],
-			"obj-6::obj-7" : [ "octave_up_1", "octave_up_1", 0 ],
-			"obj-8" : [ "octave_transposition", "octave_transposition", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "djazz_number_button.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/patchers/tools",
-				"patcherrelativepath" : "../../tools",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
