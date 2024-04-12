@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1272.0, 160.0, 902.0, 983.0 ],
+		"rect" : [ 1272.0, 160.0, 399.0, 851.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -172,6 +172,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-18",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -493,7 +494,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 340.500013500000023, 118.5, 53.0, 22.0 ],
+					"patching_rect" : [ 283.500013500000023, 118.5, 53.0, 22.0 ],
 					"text" : "pattrhub",
 					"varname" : "u933007353"
 				}
@@ -508,7 +509,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.500013500000023, 22.0, 30.0, 30.0 ]
+					"patching_rect" : [ 283.500013500000023, 22.0, 30.0, 30.0 ]
 				}
 
 			}

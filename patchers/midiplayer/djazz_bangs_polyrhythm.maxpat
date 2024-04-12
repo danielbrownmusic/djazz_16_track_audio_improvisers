@@ -300,7 +300,7 @@
 									"destination" : [ "obj-58", 1 ],
 									"source" : [ "obj-22", 1 ],
 									"watchpoint_flags" : 1,
-									"watchpoint_id" : 22
+									"watchpoint_id" : 2
 								}
 
 							}
@@ -337,7 +337,7 @@
 									"destination" : [ "obj-63", 0 ],
 									"source" : [ "obj-58", 0 ],
 									"watchpoint_flags" : 1,
-									"watchpoint_id" : 23
+									"watchpoint_id" : 3
 								}
 
 							}
@@ -499,8 +499,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 511.5, 22.0, 40.0, 35.0 ],
-					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -519,8 +519,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 409.0, 22.0, 42.0, 35.0 ],
-					"restore" : [ 181.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 60.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -539,8 +539,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 652.5, 22.0, 76.0, 35.0 ],
-					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -559,8 +559,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 579.0, 22.0, 64.0, 35.0 ],
-					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
