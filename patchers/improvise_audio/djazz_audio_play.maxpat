@@ -74,19 +74,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(f) tempo",
-					"id" : "obj-2",
-					"index" : 2,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.449761825409041, 17.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -279,7 +266,7 @@
 				"box" : 				{
 					"comment" : "ctl vars: (sym) beat_list, (sym) audio buffer name",
 					"id" : "obj-28",
-					"index" : 3,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -553,14 +540,6 @@
 					"midpoints" : [ 677.59857495011147, 649.157893300056458, 358.449761825409041, 649.157893300056458 ],
 					"order" : 0,
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 476.949761825409041, 183.411497286315921, 434.449761825409041, 183.411497286315921 ],
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}

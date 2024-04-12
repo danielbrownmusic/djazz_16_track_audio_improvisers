@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 87.0, 1043.0, 442.0 ],
+		"rect" : [ 65.0, 87.0, 2033.0, 892.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1244.913525640964508, 134.668020875498769, 95.333329677581787, 127.000000596046448 ],
+					"patching_rect" : [ 1244.913525640964508, 134.668020875498769, 96.333329677581787, 137.000000596046448 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1210.571401536464691, 37.801216355873237, 95.333329677581787, 136.33333420753479 ],
 					"viewvisibility" : 1
@@ -457,13 +457,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/file_io",
 				"patcherrelativepath" : "../code/file_io",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.grid_position_to_beat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -1044,6 +1037,20 @@
 				"name" : "djazz_view_session_file.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/song file io",
 				"patcherrelativepath" : "./song file io",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "du.does_key_exist.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"patcherrelativepath" : "./tools/dict",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "du.get.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"patcherrelativepath" : "./tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
