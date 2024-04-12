@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 561.0, 296.0, 1645.0, 783.0 ],
+		"rect" : [ 246.0, 260.0, 1645.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 892.0, 113.0, 53.0, 22.0 ],
+					"patching_rect" : [ 762.0, 88.0, 53.0, 22.0 ],
 					"text" : "pattrhub"
 				}
 
@@ -57,13 +57,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 892.0, 52.0, 174.0, 22.0 ],
+					"patching_rect" : [ 762.0, 27.0, 191.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "djazz_midi_out_solo_bank.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js djazz_midi_out_solo_bank.js",
+					"text" : "js djazz_midi_out_solo_bank.js 16",
 					"varname" : "solo_bank"
 				}
 
@@ -77,7 +77,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 640.25, 92.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"solo_bank" : [ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+
 					}
 ,
 					"text" : "autopattr",
@@ -589,7 +589,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-4", 0 ]
+					"source" : [ "obj-4", 0 ],
+					"watchpoint_flags" : 2,
+					"watchpoint_id" : 1
 				}
 
 			}

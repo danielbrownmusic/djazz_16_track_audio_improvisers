@@ -1,11 +1,20 @@
 autowatch = 1;
 
+setinletassist  (0, "set_size + int; solo + track_index + soloed (0 or 1)");
+setoutletassist (0, "sequence of messages \"track_i::active\" + 0/1");
+
 var solos_  = [];
 var count   = 0;
 declareattribute("count", null, "set_count");
 
-setinletassist  (0, "set_size + int; solo + track_index + soloed (0 or 1)");
-setoutletassist (0, "sequence of messages \"track_i::active\" + 0/1");
+if (jsarguments.length > 1)
+{
+    set_count(jsarguments[1])
+}
+
+//-------------------------------------------------------------
+
+
 
 
 function set_count(n)

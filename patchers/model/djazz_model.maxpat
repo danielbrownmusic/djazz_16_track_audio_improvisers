@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 211.0, 699.0, 850.0, 470.0 ],
+		"rect" : [ 310.0, 392.0, 435.0, 522.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -104,14 +104,7 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"master::params" : 0,
-						"master::params::loop_section_start" : 0,
-						"master::params::loop_section_end" : 0,
-						"master::params::start_beat" : 0,
-						"master::params::end_beat" : 0,
-						"master::params::tempo" : 0,
-						"master::params::metro" : 0,
-						"master::params::loop_section_active" : 0
+						"master::params" : 0
 					}
 ,
 					"id" : "obj-1",
@@ -122,7 +115,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 99.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ -2359, -93, -1656, 1083 ],
+						"client_rect" : [ -1571, -133, -868, 1043 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -166,11 +159,11 @@
 				"box" : 				{
 					"id" : "obj-67",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 77.0, 353.228516000000013, 121.0, 22.0 ],
-					"text" : "djazz_midi_out_bank",
+					"patching_rect" : [ 77.0, 353.228516000000013, 180.0, 22.0 ],
+					"text" : "djazz_midi_out_bank_16_tracks",
 					"varname" : "midi_out_bank"
 				}
 

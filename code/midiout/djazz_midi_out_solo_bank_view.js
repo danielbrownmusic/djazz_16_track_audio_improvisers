@@ -1,19 +1,19 @@
 autowatch = 1;
 
+setinletassist(0, "set_size + int; solo + track_index + soloed (0 or 1)");
+setoutletassist(0, "(list) outputs list of active tracks when a new solo value is sent in");
+
+
 var solos_  = [];
 var count   = 0;
 declareattribute("count", null, "set_count");
 
-//var value   = make_array_(count, 1);
-//inlets      = count !== 0 ? count : 1;
-
-setinletassist(0, "set_size + int; solo + track_index + soloed (0 or 1)");
-/* for (var i = 0; i < count; i++)
+if (jsarguments.length > 1)
 {
-    var str = ["(int: 0 or 1) from solo out of track view", i].join(" ");
-    setinletassist(i, str);
-} */
-setoutletassist(0, "(list) outputs list of active tracks when a new solo value is sent in");
+    set_count(jsarguments[1])
+}
+
+//-------------------------------------------------------------
 
 
 function set_count(n)
