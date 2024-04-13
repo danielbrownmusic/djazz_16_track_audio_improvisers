@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1418.0, 145.0, 276.0, 283.0 ],
+		"rect" : [ 34.0, 136.0, 150.0, 192.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 157.618159294128418, 45.0, 45.0 ],
+					"patching_rect" : [ 30.333332419395447, 138.951492071151733, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 462.404820207191278, 229.1185262799263, 28.0, 28.0 ]
 				}
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 61.0, 37.333800999999994, 115.0, 22.0 ],
+					"patching_rect" : [ 30.333332419395447, 18.667133777023309, 115.0, 22.0 ],
 					"text" : "djazz_oracle_view",
 					"varname" : "patcher"
 				}
@@ -70,7 +70,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 61.0, 86.5, 115.0, 22.0 ],
+					"patching_rect" : [ 30.333332419395447, 67.833332777023315, 115.0, 22.0 ],
 					"text" : "djazz_oracle_model",
 					"varname" : "patcher[1]"
 				}
@@ -80,7 +80,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 166.5, 111.0, 186.0, 111.0, 186.0, 33.0, 166.5, 33.0 ],
+					"midpoints" : [ 135.833332419395447, 92.333332777023315, 155.333332419395447, 92.333332777023315, 155.333332419395447, 14.333332777023315, 135.833332419395447, 14.333332777023315 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -88,7 +88,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 70.5, 111.0, 48.0, 111.0, 48.0, 33.0, 70.5, 33.0 ],
+					"midpoints" : [ 39.833332419395447, 92.333332777023315, 17.333332419395447, 92.333332777023315, 17.333332419395447, 14.333332777023315, 39.833332419395447, 14.333332777023315 ],
 					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -200,7 +200,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "djazz_oracle_player_view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "djazz_oracle_view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_oracle_view_play.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -378,6 +392,13 @@
 				"name" : "fo.state.set_suffix_link.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/state",
 				"patcherrelativepath" : "../data_structures/factor_oracle/state",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "key_msg.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools",
+				"patcherrelativepath" : "../tools",
 				"type" : "JSON",
 				"implicit" : 1
 			}
