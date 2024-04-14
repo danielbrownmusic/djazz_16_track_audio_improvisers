@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 760.0, 422.0 ],
+		"rect" : [ 34.0, 100.0, 1211.0, 736.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -153,7 +153,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "",
+					"buffername" : "NONE",
 					"fontsize" : 13.0,
 					"grid" : 500.0,
 					"id" : "obj-68",
@@ -1757,7 +1757,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 240.0, 106.0, 1155.0, 952.0 ],
+						"rect" : [ 353.0, 306.0, 1155.0, 952.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1785,7 +1785,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-22",
@@ -2118,6 +2117,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 857.5, 460.068297999999913, 91.0, 26.0 ],
+									"text" : "NONE",
 									"varname" : "textedit[3]"
 								}
 
@@ -2131,6 +2131,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 617.5, 460.068297999999913, 91.0, 26.0 ],
+									"text" : "NONE",
 									"varname" : "textedit[2]"
 								}
 
@@ -2138,15 +2139,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-2",
-									"linecount" : 12,
 									"maxclass" : "textedit",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 369.5, 460.068297999999913, 91.0, 26.0 ],
-									"presentation_linecount" : 12,
-									"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/djazz_user/djazz_audio/test_audio_impro/test_audio_impro.aif\"",
+									"text" : "NONE",
 									"varname" : "textedit[1]"
 								}
 
@@ -2154,14 +2153,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-1",
-									"linecount" : 12,
 									"maxclass" : "textedit",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 157.5, 459.520212818347886, 91.0, 26.0 ],
-									"text" : "Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/djazz_user/djazz_audio/test_audio_impro/test_audio_impro.json",
+									"text" : "NONE",
 									"varname" : "textedit"
 								}
 
@@ -3879,26 +3877,22 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1318.00000786781311, 335.402984976768494, 86.0, 35.0 ],
-					"text" : "test_audio_impro"
+					"patching_rect" : [ 1318.00000786781311, 333.402984976768494, 86.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1423.833341201146141, 335.402984976768494, 86.0, 35.0 ],
-					"text" : "test_audio_impro"
+					"patching_rect" : [ 1423.833341201146141, 333.402984976768494, 86.0, 22.0 ]
 				}
 
 			}
@@ -3964,7 +3958,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1529.50000786781311, 335.402984976768494, 86.0, 22.0 ],
+					"patching_rect" : [ 1529.50000786781311, 333.402984976768494, 86.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 212.559640414382557, 10.429905593395233, 234.404820207191278, 22.0 ]
 				}
@@ -4009,7 +4003,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1635.50000786781311, 335.402984976768494, 86.0, 22.0 ],
+					"patching_rect" : [ 1635.50000786781311, 333.402984976768494, 86.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 212.559640414382557, 36.929905593395233, 234.404820207191278, 22.0 ]
 				}
@@ -4113,7 +4107,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 145.999998569488525, 382.166666388511658, 94.0, 49.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 2, 564, 459, 1063 ],
+						"client_rect" : [ 391, 584, 848, 1083 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]

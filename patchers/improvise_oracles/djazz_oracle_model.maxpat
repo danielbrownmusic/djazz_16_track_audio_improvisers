@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 100.0, 1166.0, 918.0 ],
+		"rect" : [ 323.0, 148.0, 1166.0, 918.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -300,6 +300,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 775.185512183212268, 597.0, 171.0, 22.0 ],
+					"text" : "ORACLE_AUDIO_BUFFER",
 					"varname" : "textedit"
 				}
 
@@ -2319,7 +2320,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -2713,7 +2713,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1225.185512183212268, 211.0, 78.0, 22.0 ],
+					"patching_rect" : [ 1225.185512183212268, 214.0, 78.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -5169,7 +5169,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 219.0, 130.0, 854.0, 477.0 ],
+						"rect" : [ 325.0, 152.0, 854.0, 477.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5197,7 +5197,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "(i) current repetition index",
