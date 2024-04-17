@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1030.0, 224.0, 531.0, 678.0 ],
+		"rect" : [ 1030.0, 224.0, 591.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,39 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 247.066091208343551, 671.0, 50.0, 22.0 ],
+					"varname" : "number[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 195.566091208343551, 577.0, 122.0, 35.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr buffer_position_view",
+					"varname" : "buffer_position_view"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "number",
@@ -80,7 +113,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 326.566091208343551, 274.128729148834282, 77.0, 35.0 ],
-					"restore" : [ "7562_AUDIO_SCORE" ],
+					"restore" : [ "1010_AUDIO_SCORE" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -223,7 +256,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-13",
-													"int" : 1,
 													"maxclass" : "gswitch2",
 													"numinlets" : 2,
 													"numoutlets" : 2,
@@ -802,7 +834,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -956,15 +987,30 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 631.387329000000022, 30.0, 30.0 ]
+					"patching_rect" : [ 67.0, 671.0, 30.0, 30.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-124", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 169.5, 634.693666070699692, 256.566091208343551, 634.693666070699692 ],
+					"source" : [ "obj-10", 1 ]
 				}
 
 			}
