@@ -1,10 +1,14 @@
 autowatch = 1
 
+outlets = 2;
+
 setinletassist  (0, "antescofo (.txt) score file path");
 setoutletassist (0, "dictionary version of score");
+setoutletassist (1, "list of channels used in score (prepended by the word 'channels')");
 
 
 var score_file_;
+var channels_ = []
 
 // antescofo score keywords
 var GFWD                = "GFWD"
@@ -32,6 +36,7 @@ var CHANNEL_KEY     = "channel"
 
 function load(score_file_path)
 {
+    channels_ = [];
     score_file_ = new File(score_file_path);
     if (!score_file_.isopen)
     {
@@ -41,6 +46,7 @@ function load(score_file_path)
     var score_dict = read_score_file_(score_file_path);
     post (score_dict.name);
     outlet( 0, "dictionary", score_dict.name);
+    outlet( 1, "channels", channels_);
 }
 
 
@@ -102,7 +108,9 @@ function read_note_(tokens)
     note_dict.set(PITCH_KEY,    pitch);
     note_dict.set(VELOCITY_KEY, velocity);
     note_dict.set(DURATION_KEY, translate_bbu_to_beats(duration));
-    note_dict.set(CHANNEL_KEY,  channel);
+    channel = Number(channel);
+    note_dict.set(CHANNEL_KEY, channel);
+    channels_ = add_if_new_(channel, channels_).sort();
     return note_dict;
 }
 read_note_.local = 1;
@@ -190,4 +198,12 @@ function translate_bbu_to_beats(bbu_string)
 {
     [bars, beats, units] = bbu_string.replace(/\"/g,'').split('.').map( Number );
     return beats + units / 480.
+}
+
+
+function add_if_new_(e, arr)
+{
+    if (arr.indexOf(e) == -1)
+        arr.push(e);
+    return arr;
 }
