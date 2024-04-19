@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 83.0, 118.0, 471.0, 318.0 ],
+		"rect" : [ 53.0, 103.0, 470.0, 288.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 244.0, 391.0, 22.0 ],
+					"patching_rect" : [ 37.0, 244.0, 237.0, 22.0 ],
 					"text" : "djazz.improvise_antescofo.generate_score",
 					"varname" : "patcher[1]"
 				}
@@ -99,210 +99,238 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "antescofo_score_to_dict.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/data_file_makers",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/data_file_makers",
 				"patcherrelativepath" : "../../code/data_file_makers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "db_dictionary_array_utils.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/tools",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/tools",
 				"patcherrelativepath" : "../../code/tools",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "djazz.grid_data.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/grid_data",
+				"patcherrelativepath" : "../data_structures/grid_data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "djazz.improvise_antescofo.generate_score.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/improvise_antescofo",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_antescofo",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.improvise_antescofo.generate_score_dict_view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_antescofo",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.improvise_antescofo.generate_score_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/improvise_antescofo",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_antescofo",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.improvise_antescofo.make_improv_dict.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/improvise_antescofo",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_antescofo",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.improvise_antescofo.write_channel_dict_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/improvise_antescofo",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_antescofo",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "djazz.make_factor_oracle_from_grid_data.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_file_makers",
+				"patcherrelativepath" : "../data_file_makers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "djazz_dict_to_antescofo_score.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/code/data_file_makers",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/code/data_file_makers",
 				"patcherrelativepath" : "../../code/data_file_makers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_factor_oracle_player.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle",
 				"patcherrelativepath" : "../data_structures/factor_oracle",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_step_until_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/iterators",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/iterators",
 				"patcherrelativepath" : "../tools/iterators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.append_dict.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.dict_to_obj.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.does_index_exist.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.does_key_exist.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_at.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_at_no_error_check.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "du.get_dict_field_at.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict/nested",
+				"patcherrelativepath" : "../tools/dict/nested",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "du.get_last.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_size.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.name_to_obj.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "factor_oracle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle",
 				"patcherrelativepath" : "../data_structures/factor_oracle",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.compare.equal_chords.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/compare",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/compare",
 				"patcherrelativepath" : "../data_structures/factor_oracle/compare",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.compare_labels.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle",
 				"patcherrelativepath" : "../data_structures/factor_oracle",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.link.get_label.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/link",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/link",
 				"patcherrelativepath" : "../data_structures/factor_oracle/link",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.link.get_target_state.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/link",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/link",
 				"patcherrelativepath" : "../data_structures/factor_oracle/link",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.link.make_new_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/link",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/link",
 				"patcherrelativepath" : "../data_structures/factor_oracle/link",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.oracle.get_state_dict_name.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/factor_oracle",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/factor_oracle",
 				"patcherrelativepath" : "../data_structures/factor_oracle/factor_oracle",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.state.add_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/state",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/state",
 				"patcherrelativepath" : "../data_structures/factor_oracle/state",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.state.get_label.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/state",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/state",
 				"patcherrelativepath" : "../data_structures/factor_oracle/state",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.state.get_matching_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/state",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/state",
 				"patcherrelativepath" : "../data_structures/factor_oracle/state",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.state.get_suffix_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/state",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/state",
 				"patcherrelativepath" : "../data_structures/factor_oracle/state",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fo.state.set_suffix_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/data_structures/factor_oracle/state",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/data_structures/factor_oracle/state",
 				"patcherrelativepath" : "../data_structures/factor_oracle/state",
 				"type" : "JSON",
 				"implicit" : 1

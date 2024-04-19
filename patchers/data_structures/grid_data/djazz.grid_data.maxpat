@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 239.0, 302.0, 895.0, 432.0 ],
+		"rect" : [ 239.0, 302.0, 1132.0, 465.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 876.0, 8.0, 120.0, 35.0 ],
+					"text" : "pv GRID_DATA #0_GRID_DATA"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -50,7 +62,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -205,13 +217,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.5, 229.5, 95.0, 35.0 ],
-					"text" : "pv #0_GRID_DATA"
+					"patching_rect" : [ 512.5, 229.5, 91.0, 22.0 ],
+					"text" : "pv GRID_DATA"
 				}
 
 			}
@@ -227,7 +238,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -401,13 +412,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 373.5, 229.5, 95.0, 35.0 ],
-					"text" : "pv #0_GRID_DATA"
+					"patching_rect" : [ 373.5, 229.5, 91.0, 22.0 ],
+					"text" : "pv GRID_DATA"
 				}
 
 			}
@@ -435,7 +445,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -547,13 +557,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -705,7 +715,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -862,13 +872,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -985,7 +995,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -998,7 +1008,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1034,7 +1044,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1070,39 +1080,36 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 243.0, 229.5, 95.0, 35.0 ],
-					"text" : "pv #0_GRID_DATA"
+					"patching_rect" : [ 243.0, 229.5, 91.0, 22.0 ],
+					"text" : "pv GRID_DATA"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 229.5, 95.0, 35.0 ],
-					"text" : "pv #0_GRID_DATA"
+					"patching_rect" : [ 141.0, 229.5, 91.0, 22.0 ],
+					"text" : "pv GRID_DATA"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 229.5, 95.0, 35.0 ],
-					"text" : "pv #0_GRID_DATA"
+					"patching_rect" : [ 40.0, 229.5, 91.0, 22.0 ],
+					"text" : "pv GRID_DATA"
 				}
 
 			}
@@ -1121,13 +1128,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 632.0, 229.5, 95.0, 35.0 ],
-					"text" : "pv #0_GRID_DATA"
+					"numoutlets" : 0,
+					"patching_rect" : [ 632.0, 229.5, 91.0, 22.0 ],
+					"text" : "pv GRID_DATA"
 				}
 
 			}
@@ -1343,44 +1348,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "du.does_index_exist.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.does_key_exist.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_at.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_at_no_error_check.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/patchers/tools/dict",
-				"patcherrelativepath" : "../../tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_dict_field_at.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_db/patchers/tools/dict/nested",
-				"patcherrelativepath" : "../../tools/dict/nested",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
