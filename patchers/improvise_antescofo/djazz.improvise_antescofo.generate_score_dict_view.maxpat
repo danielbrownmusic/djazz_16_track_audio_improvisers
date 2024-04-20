@@ -38,100 +38,10 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"boxes" : [ 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-5",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "djazz.improvise_antescofo.write_channel_dict_view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 98.0, -1.0, 31.0, 80.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 98.0, -2.0, 31.0, 80.0 ],
-					"varname" : "generator[3]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-4",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "djazz.improvise_antescofo.write_channel_dict_view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 65.0, -1.0, 31.0, 80.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 65.0, -2.0, 31.0, 80.0 ],
-					"varname" : "generator[2]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-3",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "djazz.improvise_antescofo.write_channel_dict_view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 32.0, -1.0, 31.0, 80.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 32.0, -2.0, 31.0, 80.0 ],
-					"varname" : "generator[1]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-111",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "djazz.improvise_antescofo.write_channel_dict_view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ -1.0, -1.0, 31.0, 80.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -1.0, -2.0, 31.0, 80.0 ],
-					"varname" : "generator",
-					"viewvisibility" : 1
-				}
-
-			}
- ],
-		"lines" : [  ]
+		"boxes" : [  ],
+		"lines" : [  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

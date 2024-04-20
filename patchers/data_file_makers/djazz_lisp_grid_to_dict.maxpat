@@ -55,16 +55,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-200",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 789.416665500000022, 333.0, 177.666669000000013, 102.0 ],
+					"patching_rect" : [ 789.416665500000022, 333.0, 177.666669000000013, 89.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 48.166669000000013, 4.0, 663.0, 35.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track/djazz_user/scores/AutumnleavesDoMin/AutumnLeavesDoMin_with_grid_data.json\""
+					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/djazz_user/scores/AllOfMe/AllOfMe.json\""
 				}
 
 			}
@@ -370,7 +370,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 48.166669000000013, 262.666668057441711, 663.0, 33.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track/djazz_user/scores/AutumnleavesDoMin/AutumnLeavesDoMin-new.json\""
+					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/djazz_user/scores/AllOfMe/AllOfMe-new.json\""
 				}
 
 			}
@@ -1101,8 +1101,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 167.0, 140.0, 22.0 ],
-													"text" : "replace chords::beats $1"
+													"patching_rect" : [ 50.0, 167.0, 95.0, 22.0 ],
+													"text" : "set grid_data $1"
 												}
 
 											}
@@ -3252,7 +3252,7 @@
 					"patching_rect" : [ 997.5, 333.0, 177.666669000000013, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.166669000000013, 31.0, 303.999999999999943, 22.0 ],
-					"text" : "AutumnleavesDoMin"
+					"text" : "AllOfMe"
 				}
 
 			}
@@ -3283,7 +3283,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -3293,7 +3293,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 48.166669000000013, 60.166668057441711, 663.0, 191.666666686534882 ],
-					"text" : "(c m7 4) (f 7 4) (bb maj7 4) (eb maj7 4) (a m7b5 4) (d 7 4) (g m7 4) (g m7 4)\n(c m7 4) (f 7 4)    (bb maj7 4) (eb maj7 4)               (a m7b5 4) (d 7 4) (g m7 4) (g m7 4)\n(a m7b5 4) (d 7 4) (g m7 4) (g m7 4) (c m7 4) (f 7 4)     (bb maj7 4) (bb maj7 4)\n(a m7b5 4) (d 7 4) (g 7 2) (gb 7 2) (f 7 2) (e 7 2) (eb 7 4) (d 7 4)              (g m7 4) (g m7 4)"
+					"text" : "(c maj7 8) (e 7 8) (a 7 8) (d m7 8) (e 7 8) (a m7 8) (d 7 8) (d m7 4) (g 7 4)\n                        (c maj7 8) (e 7 8) (a 7 8) (d m7 8) (d m7 4) (eb dim 4) (c maj7 4) (a 7 4) (d m7 4) (g 7 4) (c maj7 8)\n\n                        (c m7b5 32)"
 				}
 
 			}

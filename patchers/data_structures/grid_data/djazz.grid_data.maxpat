@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 239.0, 302.0, 1132.0, 465.0 ],
+		"rect" : [ 275.0, 150.0, 1129.0, 512.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,12 +41,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 876.0, 8.0, 120.0, 35.0 ],
-					"text" : "pv GRID_DATA #0_GRID_DATA"
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 876.0, 8.0, 241.0, 22.0 ],
+					"text" : "pv #0_GRID_DATA #0_GRID_DATA"
 				}
 
 			}
@@ -55,8 +55,8 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -98,25 +98,49 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-27",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 83.0, 22.0 ],
-									"text" : "beats $1 label"
+									"comment" : "bang if label not found",
+									"id" : "obj-4",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 191.0, 299.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-20",
+									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 50.0, 206.0, 156.0, 22.0 ],
+									"text" : "du.get"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 107.0, 57.0, 22.0 ],
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 171.5, 113.0, 22.0 ],
-									"text" : "du.get_dict_field_at"
+									"patching_rect" : [ 50.0, 168.0, 102.0, 22.0 ],
+									"text" : "combine s :: label"
 								}
 
 							}
@@ -161,28 +185,42 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-33", 0 ],
-									"source" : [ "obj-20", 0 ]
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"source" : [ "obj-27", 0 ]
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-29", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 1 ],
+									"destination" : [ "obj-33", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -217,12 +255,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.5, 229.5, 91.0, 22.0 ],
-					"text" : "pv GRID_DATA"
+					"patching_rect" : [ 512.5, 229.5, 118.0, 35.0 ],
+					"text" : "pv #0_GRID_DATA"
 				}
 
 			}
@@ -231,8 +270,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -274,25 +313,37 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-11",
-									"maxclass" : "newobj",
+									"comment" : "bang if beat not found",
+									"id" : "obj-3",
+									"index" : 2,
+									"maxclass" : "outlet",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "beats" ],
-									"patching_rect" : [ 50.0, 100.0, 51.0, 22.0 ],
-									"text" : "t i beats"
+									"numoutlets" : 0,
+									"patching_rect" : [ 125.0, 243.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-9",
+									"id" : "obj-2",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 61.0, 162.0, 61.0, 22.0 ],
-									"text" : "du.get_at"
+									"patching_rect" : [ 50.0, 149.0, 94.0, 22.0 ],
+									"text" : "du.get"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 103.0, 57.0, 22.0 ],
+									"text" : "tosymbol"
 								}
 
 							}
@@ -318,7 +369,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 103.0, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 125.0, 40.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -330,35 +381,28 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 61.0, 244.0, 30.0, 30.0 ]
+									"patching_rect" : [ 50.0, 243.0, 30.0, 30.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 1 ],
-									"source" : [ "obj-11", 1 ]
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 2 ],
+									"destination" : [ "obj-2", 1 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -366,7 +410,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-9", 0 ]
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-2", 1 ]
 								}
 
 							}
@@ -412,12 +463,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 373.5, 229.5, 91.0, 22.0 ],
-					"text" : "pv GRID_DATA"
+					"patching_rect" : [ 373.5, 229.5, 118.0, 35.0 ],
+					"text" : "pv #0_GRID_DATA"
 				}
 
 			}
@@ -751,13 +803,13 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-12",
+									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 60.5, 227.0, 69.0, 22.0 ],
-									"text" : "route beats"
+									"patching_rect" : [ 71.0, 239.0, 37.0, 22.0 ],
+									"text" : "zl.len"
 								}
 
 							}
@@ -782,13 +834,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 84.0, 35.0 ],
-									"text" : "name $1, getsize beats"
+									"patching_rect" : [ 50.0, 100.0, 103.0, 22.0 ],
+									"text" : "name $1, getkeys"
 								}
 
 							}
@@ -813,7 +864,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.5, 309.0, 30.0, 30.0 ]
+									"patching_rect" : [ 71.0, 311.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -821,14 +872,14 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
-									"source" : [ "obj-12", 0 ]
+									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-27", 1 ]
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-27", 2 ]
 								}
 
 							}
@@ -1080,36 +1131,39 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 243.0, 229.5, 91.0, 22.0 ],
-					"text" : "pv GRID_DATA"
+					"patching_rect" : [ 243.0, 229.5, 118.0, 35.0 ],
+					"text" : "pv #0_GRID_DATA"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 229.5, 91.0, 22.0 ],
-					"text" : "pv GRID_DATA"
+					"patching_rect" : [ 141.0, 229.5, 118.0, 35.0 ],
+					"text" : "pv #0_GRID_DATA"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 229.5, 91.0, 22.0 ],
-					"text" : "pv GRID_DATA"
+					"patching_rect" : [ 40.0, 229.5, 118.0, 35.0 ],
+					"text" : "pv #0_GRID_DATA"
 				}
 
 			}
@@ -1128,11 +1182,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 632.0, 229.5, 91.0, 22.0 ],
-					"text" : "pv GRID_DATA"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 632.0, 229.5, 118.0, 35.0 ],
+					"text" : "pv #0_GRID_DATA"
 				}
 
 			}

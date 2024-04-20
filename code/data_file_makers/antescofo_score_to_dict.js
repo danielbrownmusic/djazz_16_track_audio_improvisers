@@ -90,7 +90,8 @@ function read_beat_()
     while (!is_note_list_end_(tokens))
     {
         var note_dict = read_note_(tokens);
-        beat_dict.replace(make_notes_key(note_count), note_dict);
+        //beat_dict.replace(make_notes_key(note_count), note_dict);
+        beat_dict.append(NOTES_KEY, note_dict);
         note_count++;
         tokens = next_();
     }
