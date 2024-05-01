@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 100.0, 620.0, 457.0 ],
+		"rect" : [ 34.0, 100.0, 758.0, 386.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 44.333332419395447, 31.667133777023309, 884.0, 271.0 ],
+					"patching_rect" : [ 44.333332419395447, 31.667133777023309, 884.0, 307.0 ],
 					"varname" : "patcher",
 					"viewvisibility" : 1
 				}
@@ -67,7 +67,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 44.333332419395447, 332.833332777023315, 884.0, 22.0 ],
+					"patching_rect" : [ 44.333332419395447, 342.833332777023315, 884.0, 22.0 ],
 					"text" : "djazz_oracle_model",
 					"varname" : "patcher[1]"
 				}
