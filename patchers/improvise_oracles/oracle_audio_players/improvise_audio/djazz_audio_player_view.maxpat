@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 332.0, 267.0, 1156.0, 716.0 ],
+		"rect" : [ 332.0, 267.0, 927.0, 393.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -113,9 +113,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 506.5, 10.0, 141.0, 22.0 ],
+					"patching_rect" : [ 506.5, 10.0, 88.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 721.0, -1.5, 143.0, 26.0 ],
+					"presentation_rect" : [ 721.0, -1.5, 91.0, 26.0 ],
 					"varname" : "oracle_player",
 					"viewvisibility" : 1
 				}

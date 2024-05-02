@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 758.0, 386.0 ],
+		"rect" : [ 34.0, 100.0, 989.0, 434.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 44.333332419395447, 31.667133777023309, 884.0, 307.0 ],
+					"patching_rect" : [ 44.333332419395447, 30.667133777023309, 884.0, 307.0 ],
 					"varname" : "patcher",
 					"viewvisibility" : 1
 				}
@@ -67,7 +67,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 44.333332419395447, 342.833332777023315, 884.0, 22.0 ],
+					"patching_rect" : [ 44.333332419395447, 369.833332777023315, 884.0, 22.0 ],
 					"text" : "djazz_oracle_model",
 					"varname" : "patcher[1]"
 				}
@@ -77,7 +77,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 918.833332419395447, 373.666666507720947, 950.333332896232605, 373.666666507720947, 950.333332896232605, 11.0, 918.833332419395447, 11.0 ],
+					"midpoints" : [ 918.833332419395447, 409.666666507720947, 950.333332896232605, 409.666666507720947, 950.333332896232605, 11.0, 918.833332419395447, 11.0 ],
 					"source" : [ "obj-11", 2 ]
 				}
 
@@ -85,7 +85,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 53.833332419395447, 371.333332777023315, 29.333332419395447, 371.333332777023315, 29.333332419395447, 17.333332777023315, 53.833332419395447, 17.333332777023315 ],
+					"midpoints" : [ 53.833332419395447, 416.333332777023315, 29.333332419395447, 416.333332777023315, 29.333332419395447, 17.333332777023315, 53.833332419395447, 17.333332777023315 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -131,7 +131,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.audio_recorder.maxpat",
+				"name" : "djazz.audio_view_play.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles/oracle_audio_players",
 				"patcherrelativepath" : "./oracle_audio_players",
 				"type" : "JSON",

@@ -44,10 +44,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.5, 82.0, 90.0, 20.0 ],
+					"patching_rect" : [ 105.5, 82.0, 34.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 0.0, 86.0, 20.0 ],
-					"text" : "max continuity"
+					"presentation_rect" : [ 1.0, 0.0, 33.0, 20.0 ],
+					"text" : "cont"
 				}
 
 			}
@@ -81,7 +81,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 50.0, 82.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.0, 0.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 36.0, 0.0, 50.0, 22.0 ],
 					"varname" : "number[2]"
 				}
 
@@ -94,7 +94,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
