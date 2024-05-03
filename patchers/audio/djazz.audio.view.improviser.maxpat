@@ -115,7 +115,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 506.5, 10.0, 88.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 721.0, -1.5, 91.0, 26.0 ],
+					"presentation_rect" : [ 721.0, -1.5, 188.0, 26.0 ],
 					"varname" : "oracle_player",
 					"viewvisibility" : 1
 				}
@@ -754,7 +754,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "djazz.factor_oracle_player.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/factor_oracle_player",
-				"patcherrelativepath" : "../../../factor_oracle_player",
+				"patcherrelativepath" : "../factor_oracle_player",
 				"type" : "JSON",
 				"implicit" : 1
 			}

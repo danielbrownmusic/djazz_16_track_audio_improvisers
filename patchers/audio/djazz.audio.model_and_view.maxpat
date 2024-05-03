@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 968.0, 565.0 ],
+		"rect" : [ 38.0, 104.0, 522.0, 444.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.99999725818634, 457.0, 75.50000137090683, 75.50000137090683 ]
+					"patching_rect" : [ 229.333332419395447, 374.833332777023315, 41.666667580604553, 41.666667580604553 ]
 				}
 
 			}
@@ -55,7 +55,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 29.99999725818634, 309.0, 56.666667580604553, 56.666667580604553 ]
+					"patching_rect" : [ 14.333332419395447, 374.833332777023315, 41.666667580604553, 41.666667580604553 ]
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.333332419395447, 18.667133777023309, 836.0, 359.0 ],
+					"patching_rect" : [ 14.333332419395447, 10.667133777023309, 934.0, 355.0 ],
 					"varname" : "patcher",
 					"viewvisibility" : 1
 				}
@@ -88,7 +88,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "signal", "" ],
-					"patching_rect" : [ 29.99999725818634, 397.833332777023315, 132.00000274181366, 22.0 ],
+					"patching_rect" : [ 84.333332419395447, 374.833332777023315, 107.00000274181366, 22.0 ],
 					"text" : "djazz.audio",
 					"varname" : "patcher[1]"
 				}
@@ -150,30 +150,51 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "djazz.audio.beat_player.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/audio",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.audio.improviser.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/audio",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "djazz.audio.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles",
-				"patcherrelativepath" : "../improvise_oracles",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/audio",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.audio.score_player.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/audio",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.audio.view.improviser.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/audio",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.audio.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles",
-				"patcherrelativepath" : "../improvise_oracles",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/audio",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.audio_player.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles",
-				"patcherrelativepath" : "../improvise_oracles",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.audio_view_play.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles",
-				"patcherrelativepath" : "../improvise_oracles",
+				"name" : "djazz.audio.view.play.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/audio",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -188,13 +209,6 @@
 				"name" : "djazz.factor_oracle_player.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/factor_oracle_player",
 				"patcherrelativepath" : "../factor_oracle_player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_audio_player_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles",
-				"patcherrelativepath" : "../improvise_oracles",
 				"type" : "JSON",
 				"implicit" : 1
 			}

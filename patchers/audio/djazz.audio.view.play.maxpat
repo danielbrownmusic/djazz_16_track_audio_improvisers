@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ 1 ],
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "djazz_audio_player_view.maxpat",
+					"name" : "djazz.audio.view.improviser.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 50.0, 160.0, 806.999999642372131, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.07107875685233, 58.736948938488013, 807.999999642372131, 26.0 ],
+					"presentation_rect" : [ -0.07107875685233, 56.736948938488013, 909.999999642372131, 26.0 ],
 					"varname" : "player_3",
 					"viewvisibility" : 1
 				}
@@ -64,7 +64,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1 ],
+					"args" : [ 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -74,13 +74,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "djazz_audio_player_view.maxpat",
+					"name" : "djazz.audio.view.improviser.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 50.0, 129.0, 806.999999642372131, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.07107875685233, 28.736948938488013, 807.999999642372131, 26.0 ],
+					"presentation_rect" : [ -0.07107875685233, 28.736948938488013, 909.999999642372131, 26.0 ],
 					"varname" : "player_2",
 					"viewvisibility" : 1
 				}
@@ -98,13 +98,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "djazz_audio_player_view.maxpat",
+					"name" : "djazz.audio.view.improviser.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 50.0, 101.0, 806.999999642372131, 25.0 ],
+					"patching_rect" : [ 50.0, 102.0, 806.999999642372131, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.07107875685233, 0.736948938488013, 807.999999642372131, 26.0 ],
+					"presentation_rect" : [ -0.07107875685233, 0.736948938488013, 909.999999642372131, 26.0 ],
 					"varname" : "player_1",
 					"viewvisibility" : 1
 				}
@@ -113,16 +113,16 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "djazz.factor_oracle_player.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/factor_oracle_player",
-				"patcherrelativepath" : "../../factor_oracle_player",
+				"name" : "djazz.audio.view.improviser.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/audio",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz_audio_player_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_oracles/oracle_audio_players/improvise_audio",
-				"patcherrelativepath" : "./improvise_audio",
+				"name" : "djazz.factor_oracle_player.view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/factor_oracle_player",
+				"patcherrelativepath" : "../factor_oracle_player",
 				"type" : "JSON",
 				"implicit" : 1
 			}
