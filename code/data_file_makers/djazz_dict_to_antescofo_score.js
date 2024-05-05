@@ -5,8 +5,10 @@ var dutils = require("db_dictionary_array_utils");
 setinletassist  (0, "antescofo (.txt) score file path");
 setoutletassist (0, "dictionary version of score");
 
-
-var score_file_;
+var original_score_file_    = "";
+var overwritten_score_file_ = "";
+var original_score_dict_    = null;
+var overwritten_score_dict_ = null;
 
 // antescofo score keywords
 var GFWD                = "GFWD"
@@ -32,40 +34,79 @@ var CHANNEL_KEY     = "channel"
 var KEY_SEPARATOR   = "::"
 
 
-function write_score(file_path, original_score_dict_name, generated_score_dict_name)
-{
-    var original_score_dict     = new Dict(original_score_dict_name);
-    var generated_score_dict    = new Dict (generated_score_dict_name);
-    var d = new Dict();
 
-    merge_scores_(d, original_score_dict, generated_score_dict);
-    d.export_json(file_path);
+function set_original_score(score_dict_name)
+{
+    original_score_dict_    = new Dict(score_dict_name);
+    overwritten_score_dict_ = new Dict();
+    overwritten_score_dict_.clone(original_score_dict_);
+}
+
+
+function merge_score(score_dict_name)
+{
+    var d = new Dict (score_dict_name);
+    overwritten_score_dict_ = merge_scores_(overwritten_score_dict_, d);
 }
 
 
 //------------------------------------------------------------------------------------
 
 
-function merge_scores_(result_dict, original_score_dict, generated_score_dict)
+function merge_scores_(result_dict, score_dict_name_1, score_dict_name_2)
 {
+    var score_dict_1    = new Dict (score_dict_name_1);
+    var score_dict_2    = new Dict (score_dict_name_2);
+    var result_dict     = new Dict ();
+
     dutils.get_dict_key_array(generated_score_dict.get(BEATS_KEY)).forEach(
         function (beat_key)
         {
-            var i = Number(beat_key);
-            var original_notes = get_notes(i, original_score_dict);
-            var generated_notes = get_notes(i, generated_score_dict);
-            var notes = original_notes.concat(generated_notes).sort(compare_ontimes_);
-
-            var beat = new Dict()
-            beat.clone(get_beat(i, d));
-            dutils.set_dict_array(beat, NOTES_KEY, notes);
-            result_dict.set(make_beat_key_(i), beat);
+            var beat_1  = get_beat_(beat_key, score_dict_1);
+            var beat_2  = get_beat_(beat_key, score_dict_2);
+            var beat    = merge_beats_(beat_1, beat_2);
+            set_beat_(result_dict, beat_key, beat);
         }
     )
+    return result_dict;
+}
+
+
+function merge_beats_(beat_dict_1, beat_dict_2)
+{
+
+    var notes_1 = get_notes(beat_dict_1);
+    var notes_2 = get_notes(beat_dict_2);
+    var notes   = merge_notes_(notes_1, notes_2);
+
+    var beat = new Dict()
+    beat.clone(beat_dict_1);
+    dutils.set_dict_array(beat, NOTES_KEY, notes);
+    return beat;
+}
+
+
+function merge_notes_(note_array_1, note_array_2)
+{
+    var notes  = note_array_1.concat(note_array_2).sort(compare_ontimes_);
+    notes      = set_deltatimes(result);
+    return notes;
 }
 
 
 //------------------------------------------------------------------------------------
+
+
+function get_beat_(beat_key, score_dict)
+{
+    return score_dict.get(make_beat_key_(beat_key));
+}
+
+
+function set_beat_(score_dict, beat_key, beat)
+{
+    score_dict.set(make_beat_key_(beat_key), beat);
+}
 
 
 function get_notes(beat_number, dict_of_beats)
@@ -74,16 +115,13 @@ function get_notes(beat_number, dict_of_beats)
 }
 
 
-function get_beat(i, d)
-{
-    return d.get(make_beat_key_(i));
-}
-
-
 function make_beat_key_(i)
 {
-    return [BEATS_KEY, i.toString()].join(KEY_SEPARATOR);
+    return [BEATS_KEY, i].join(KEY_SEPARATOR);
 }
+
+
+//------------------------------------------------------------------------------------
 
 
 function compare_ontimes_(note1, note2)

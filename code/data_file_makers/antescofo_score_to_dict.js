@@ -26,6 +26,7 @@ var TEMPO_KEY       = "tempo";
 var DURATION_KEY    = "duration_in_beats";
 var NOTES_KEY       = "notes";
 var ONTIME_KEY      = "ontime_in_beats";
+var DELTATIME_KEY   = "deltatime_in_beats"
 var PITCH_KEY       = "pitch";
 var VELOCITY_KEY    = "velocity";
 var DURATION_KEY    = "duration_in_beats"
@@ -86,10 +87,14 @@ function read_beat_()
     if (!is_note_list_start_(next_()))
         return;
     tokens = next_();
+
     var note_count = 0;
+    var note_dict = new Dict();
+    var ontime_from_beat_start = 0.0;
+
     while (!is_note_list_end_(tokens))
     {
-        var note_dict = read_note_(tokens);
+        [note_dict, ontime_from_beat_start] = read_note_(tokens, note_dict, ontime_from_beat_start);
         //beat_dict.replace(make_notes_key(note_count), note_dict);
         beat_dict.append(NOTES_KEY, note_dict);
         note_count++;
@@ -101,18 +106,23 @@ function read_beat_()
 read_beat_.local = 1;
 
 
-function read_note_(tokens)
+function read_note_(tokens, ontime_from_beat_start)
 {
-    [ontime_in_beats, antescofo_out_name, pitch, velocity, duration, channel] = tokens;
-    var note_dict = new Dict();
-    note_dict.set(ONTIME_KEY,   ontime_in_beats);
+    [delta_time, antescofo_out_name, pitch, velocity, duration, channel] = tokens;
+    note_dict.clear();
+    note_dict.set(DELTATIME_KEY,   delta_time);
     note_dict.set(PITCH_KEY,    pitch);
     note_dict.set(VELOCITY_KEY, velocity);
     note_dict.set(DURATION_KEY, translate_bbu_to_beats(duration));
+
+    ontime_from_beat_start += delta_time
+    note_dict.set(ONTIME_KEY,   ontime_from_beat_start);
+
     channel = Number(channel);
     note_dict.set(CHANNEL_KEY, channel);
     channels_ = add_if_new_(channel, channels_).sort();
-    return note_dict;
+
+    return [note_dict, ontime_from_beat_start];
 }
 read_note_.local = 1;
 
