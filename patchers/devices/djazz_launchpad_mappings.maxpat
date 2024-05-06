@@ -219,7 +219,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -563,7 +562,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.000002936191919, 684.000502999999981, 30.0, 30.0 ]
+					"patching_rect" : [ 64.000002936191919, 677.000502999999981, 30.0, 30.0 ]
 				}
 
 			}
