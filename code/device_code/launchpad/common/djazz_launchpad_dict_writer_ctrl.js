@@ -74,7 +74,7 @@ add_param_.local = 1;
 
 function make_grid_param_name_(param)
 {
-    return [param, "_button"].join("");
+    return [param, "_number"].join("");
 }
 make_grid_param_name_.local = 1;
 

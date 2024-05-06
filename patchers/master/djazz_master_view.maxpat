@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 63.0, 637.0, 1255.0, 573.0 ],
+		"rect" : [ 110.0, 184.0, 1255.0, 573.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -69,13 +69,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 883.0, 489.0, 640.0, 480.0 ],
+						"rect" : [ 495.0, 487.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -110,8 +110,19 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"parameter_enable" : 0,
+									"parameter_enable" : 1,
 									"patching_rect" : [ 362.0, 165.0, 24.0, 24.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_longname" : "chapter_loop",
+											"parameter_mmax" : 1,
+											"parameter_shortname" : "chapter_loop",
+											"parameter_type" : 2
+										}
+
+									}
+,
 									"varname" : "toggle"
 								}
 
@@ -145,11 +156,23 @@
 								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "number",
+									"maximum" : 127,
+									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
+									"parameter_enable" : 1,
 									"patching_rect" : [ 277.0, 167.0, 50.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_invisible" : 1,
+											"parameter_longname" : "chapter_number",
+											"parameter_shortname" : "chapter_number",
+											"parameter_type" : 1
+										}
+
+									}
+,
 									"varname" : "number[1]"
 								}
 
@@ -158,11 +181,23 @@
 								"box" : 								{
 									"id" : "obj-15",
 									"maxclass" : "number",
+									"maximum" : 127,
+									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
+									"parameter_enable" : 1,
 									"patching_rect" : [ 213.0, 167.0, 50.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_invisible" : 1,
+											"parameter_longname" : "bar_number",
+											"parameter_shortname" : "bar_number",
+											"parameter_type" : 1
+										}
+
+									}
+,
 									"varname" : "number"
 								}
 
@@ -283,7 +318,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 676.916681533334213, 517.0, 61.0, 22.0 ],
+					"patching_rect" : [ 676.916681533334213, 520.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -320,7 +355,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -770,13 +805,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1551.0, 442.0, 640.0, 480.0 ],
+						"rect" : [ 1054.0, 442.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -804,7 +839,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -1032,7 +1066,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1219,7 +1253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 676.916681533334213, 225.000001999999995, 117.0, 22.0 ],
+					"patching_rect" : [ 676.916681533334213, 226.000001999999995, 117.0, 22.0 ],
 					"text" : "djazz_grid_view_ctrl",
 					"varname" : "grid_view_ctrl"
 				}
@@ -1522,7 +1556,12 @@
  ],
 		"parameters" : 		{
 			"obj-16::obj-1" : [ "led", "loop_chapter", 0 ],
+			"obj-24::obj-15" : [ "bar_number", "bar_number", 0 ],
+			"obj-24::obj-6" : [ "chapter_loop", "chapter_loop", 0 ],
+			"obj-24::obj-7" : [ "chapter_number", "chapter_number", 0 ],
+			"obj-85::obj-2" : [ "chapter_count", "chapter_count", 0 ],
 			"obj-85::obj-22" : [ "grid", "grid", 0 ],
+			"obj-85::obj-31" : [ "number[2]", "number[2]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1537,105 +1576,105 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "djazz_PARAMS_CTRL_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/params",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/params",
 				"patcherrelativepath" : "../params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_PARAMS_VIEW_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/params",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/params",
 				"patcherrelativepath" : "../params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_beat_to_beat_bar_chapter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_get_bar_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_get_chapter_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_grid_view_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_master_clock_view_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/master",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_master_view_beat_out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/master",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_metro_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/beatclock",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/beatclock",
 				"patcherrelativepath" : "../beatclock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_navigate_bar_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_navigate_chapter_ctrl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_navigate_view_chapter_bar_beat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/grid",
 				"patcherrelativepath" : "../grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_range.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/iterators",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/iterators",
 				"patcherrelativepath" : "../tools/iterators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_at_subkey.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "eqsym.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools",
 				"patcherrelativepath" : "../tools",
 				"type" : "JSON",
 				"implicit" : 1
