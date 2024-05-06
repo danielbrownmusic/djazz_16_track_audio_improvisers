@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 100.0, 975.0, 559.0 ],
+		"rect" : [ 382.0, 300.0, 1735.0, 1099.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 48.166669000000013, 4.0, 663.0, 35.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/djazz_user/scores/AllOfMe/AllOfMe.json\""
+					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/djazz_user/scores/Capharnaum/Capharnaum.json\""
 				}
 
 			}
@@ -115,7 +115,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -370,7 +370,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 48.166669000000013, 262.666668057441711, 663.0, 33.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/djazz_user/scores/AllOfMe/AllOfMe-new.json\""
+					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/djazz_user/scores/Capharnaum/Capharnaum-new.json\""
 				}
 
 			}
@@ -386,7 +386,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -571,7 +571,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -629,7 +629,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -781,7 +781,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -894,7 +894,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1006,7 +1006,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1220,7 +1220,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1422,7 +1422,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1516,7 +1516,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1877,7 +1877,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2153,7 +2153,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2460,7 +2460,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2622,7 +2622,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2786,7 +2786,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2974,7 +2974,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3204,7 +3204,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.5, 444.166668000000016, 100.0, 100.0 ],
+					"patching_rect" : [ 22.5, 444.166668000000016, 306.0, 346.000000000000057 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 724.0, 4.0, 211.0, 526.0 ]
 				}
@@ -3252,7 +3252,7 @@
 					"patching_rect" : [ 997.5, 333.0, 177.666669000000013, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.166669000000013, 31.0, 303.999999999999943, 22.0 ],
-					"text" : "AllOfMe"
+					"text" : "Capharnaum"
 				}
 
 			}
@@ -3283,7 +3283,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 5,
+					"linecount" : 9,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -3291,9 +3291,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 145.5, 192.166668057441711, 554.000000536441803, 148.666666686534882 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
+					"presentation_linecount" : 9,
 					"presentation_rect" : [ 48.166669000000013, 60.166668057441711, 663.0, 191.666666686534882 ],
-					"text" : "(c maj7 8) (e 7 8) (a 7 8) (d m7 8) (e 7 8) (a m7 8) (d 7 8) (d m7 4) (g 7 4)\n                        (c maj7 8) (e 7 8) (a 7 8) (d m7 8) (d m7 4) (eb dim 4) (c maj7 4) (a 7 4) (d m7 4) (g 7 4) (c maj7 8)\n\n                        (c m7b5 32)"
+					"text" : "                     (e m7 2) (f m7 1) (bb 7 1) (eb maj7 4) (ab maj7 4) (d m7 1) (g 7 1) (ab m7 1) (c# 7 1)\n                     (c m7 4) (eb 7 4) (ab maj7 8)\n                     (c m7 4) (a m7b5 1) (d 7 1) (g m7 2) (f# maj7 8)\n                     (bb 7 4) (ab 7 4) (f# 7 4) (f m7 2) (bb 7 2)\n\n                     (e m7 2) (f m7 1) (bb 7 1) (eb maj7 4) (ab maj7 4) (d m7 1) (g 7 1) (ab m7 1) (c# 7 1)\n                     (c m7 4) (eb 7 4) (ab maj7 8)\n                     (c m7 4) (a m7b5 1) (d 7 1) (g m7 2) (f# maj7 8)\n                     (ab m7 2) (c# 7 2) (f m7 2) (bb 7 2) (eb maj7 8)"
 				}
 
 			}
@@ -3550,7 +3550,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "du.dict_to_obj.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
