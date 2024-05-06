@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -59,7 +59,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 722.0, 16.999999624999987, 30.0, 30.0 ]
+					"patching_rect" : [ 565.0, 16.999999624999987, 30.0, 30.0 ]
 				}
 
 			}
@@ -104,7 +104,14 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"master::params" : 0
+						"master::params" : 0,
+						"master::params::loop_section_start" : 0,
+						"master::params::loop_section_end" : 0,
+						"master::params::start_beat" : 0,
+						"master::params::end_beat" : 0,
+						"master::params::tempo" : 0,
+						"master::params::metro" : 0,
+						"master::params::loop_section_active" : 0
 					}
 ,
 					"id" : "obj-1",
@@ -113,9 +120,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 722.0, 99.228516000000013, 123.0, 62.0 ],
+					"patching_rect" : [ 565.0, 99.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1048, 141, 1680, 787 ],
+						"client_rect" : [ 1136, 751, 1768, 1397 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -133,7 +140,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 640.666652666666778, 99.228516000000013, 53.0, 22.0 ],
+					"patching_rect" : [ 483.666652666666778, 99.228516000000013, 53.0, 22.0 ],
 					"text" : "pattrhub"
 				}
 
@@ -145,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 860.666652666666778, 99.228516000000013, 172.0, 22.0 ],
+					"patching_rect" : [ 703.666652666666778, 99.228516000000013, 172.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "djazz_components_model.js",
 						"parameter_enable" : 0
@@ -203,7 +210,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.666652666666778, 16.999999624999987, 30.0, 30.0 ]
+					"patching_rect" : [ 483.666652666666778, 16.999999624999987, 30.0, 30.0 ]
 				}
 
 			}
@@ -216,7 +223,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 860.666652666666778, 16.999999624999987, 30.0, 30.0 ]
+					"patching_rect" : [ 703.666652666666778, 16.999999624999987, 30.0, 30.0 ]
 				}
 
 			}
@@ -228,7 +235,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 722.0, 428.0, 30.0, 30.0 ]
+					"patching_rect" : [ 565.0, 428.0, 30.0, 30.0 ]
 				}
 
 			}
