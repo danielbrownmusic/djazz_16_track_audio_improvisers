@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 251.0, 333.0, 1082.0, 676.0 ],
+		"rect" : [ 287.0, 368.0, 1082.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -568,8 +568,6 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "octave_transposition",
-							"parameter_mmax" : 8.0,
-							"parameter_mmin" : -8.0,
 							"parameter_shortname" : "octave_transposition",
 							"parameter_type" : 1
 						}

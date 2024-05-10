@@ -1,0 +1,58 @@
+{
+	"device" : "Launchpad Mini",
+	"grid" : 	{
+		"chapter" : 		{
+			"cells" : [ "midi 8", "midi 24", "midi 40", "midi 56", "midi 72", "midi 88", "midi 104", "midi 120" ],
+			"colors" : 			{
+				"unused" : "none",
+				"off" : "red dim static",
+				"waiting" : "red dim static",
+				"playing" : "red bright static"
+			}
+
+		}
+,
+		"bar" : 		{
+			"cells" : [ "midi 0", "midi 1", "midi 2", "midi 3", "midi 4", "midi 5", "midi 6", "midi 7", "midi 16", "midi 17", "midi 18", "midi 19", "midi 20", "midi 21", "midi 22", "midi 23", "midi 32", "midi 33", "midi 34", "midi 35", "midi 36", "midi 37", "midi 38", "midi 39", "midi 48", "midi 49", "midi 50", "midi 51", "midi 52", "midi 53", "midi 54", "midi 55" ],
+			"colors" : 			{
+				"unused" : "none",
+				"off" : "yellow bright static",
+				"waiting" : "red dim static",
+				"playing" : "red bright static"
+			}
+
+		}
+
+	}
+,
+	"parameters" : 	{
+		"no_octave" : "midi 83 orange",
+		"midi_player_1_speed_button_1/2" : "midi 64 orange",
+		"midi_player_1_speed_button_3/2" : "midi 80 orange",
+		"midi_player_1_speed_button_2" : "midi 96 orange",
+		"midi_player_1_speed_button_4" : "midi 112 orange",
+		"midi_player_1_loop_1" : "midi 71 orange",
+		"midi_player_1_loop_2" : "midi 87 orange",
+		"midi_player_1_loop_3" : "midi 103 orange",
+		"midi_player_1_loop_4" : "midi 119 orange",
+		"midi_player_1_loop_5" : "midi 70 orange",
+		"midi_player_1_loop_6" : "midi 86 orange",
+		"midi_player_1_loop_7" : "midi 102 orange",
+		"midi_player_1_loop_8" : "midi 118 orange",
+		"track_8_unmute" : "midi 65 green",
+		"track_9_unmute" : "midi 66 green",
+		"track_10_unmute" : "midi 67 green",
+		"track_11_unmute" : "midi 68 green",
+		"track_12_unmute" : "midi 69 green",
+		"track_13_unmute" : "midi 81 green",
+		"track_14_unmute" : "midi 82 green",
+		"track_3_unmute" : "midi 97 green",
+		"track_4_unmute" : "midi 98 green",
+		"track_5_unmute" : "midi 99 green",
+		"track_6_unmute" : "midi 100 green",
+		"track_7_unmute" : "midi 101 green",
+		"octave_down" : "midi 84 orange",
+		"octave_up" : "midi 85 orange"
+	}
+
+}
